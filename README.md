@@ -1,10 +1,10 @@
-# VISDOM-PROTOTYPE
+## VISDOM-PROTOTYPE
 
 Smart Experiment Management & Meta-Analysis System for tracking, filtering, comparing, and visualizing machine learning experiment runs.
 
 ---
 
-## 🚀 Features
+### 🚀 Features
 
 - Add experiment runs (learning rate, batch size, accuracy, tag)
 - Filter runs using tags
@@ -15,7 +15,7 @@ Smart Experiment Management & Meta-Analysis System for tracking, filtering, comp
 
 ---
 
-## 🧱 Project Structure
+### 🧱 Project Structure
 ```bash
 visdom-prototype/
 │
@@ -38,7 +38,7 @@ visdom-prototype/
 ```
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 #### Backend
 - FastAPI
@@ -51,7 +51,7 @@ visdom-prototype/
 - Plotly.js
 ---
 
-## ⚙️ Setup Instructions
+### ⚙️ Setup Instructions
 #### Backend
 
 ```bash
@@ -71,7 +71,8 @@ npm start
 Runs at: http://localhost:3000
 
 ---
-## 📊 Key Functionalities
+### 📊 Key Functionalities
+
 #### Add Experiment Runs
 Input learning rate, batch size, accuracy, and tag. Data is stored in SQLite database.
 
@@ -116,8 +117,8 @@ Parallel Coordinates Plot showing relationships between:
 Prototype completed with core experiment tracking, filtering, comparison, and visualization features.
 
 ---
-## 👩‍💻 Author
-### Keerthana S
+### 👩‍💻 Author
+#### Keerthana S
 
 Developed as part of GSoC preparation for Smart Experiment Management.
 
