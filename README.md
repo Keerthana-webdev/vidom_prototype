@@ -16,6 +16,7 @@ Smart Experiment Management & Meta-Analysis System for tracking, filtering, comp
 ---
 
 ## 🧱 Project Structure
+```bash
 visdom-prototype/
 │
 ├── backend/
@@ -34,8 +35,8 @@ visdom-prototype/
 │ └── node_modules/
 │
 └── README.md
-
 ---
+
 ## 🛠️ Tech Stack
 
 ### Backend
