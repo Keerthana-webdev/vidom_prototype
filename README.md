@@ -73,19 +73,19 @@ Runs at: http://localhost:3000
 ---
 ### 📊 Key Functionalities
 
-#### Add Experiment Runs
+*#### Add Experiment Runs
 Input learning rate, batch size, accuracy, and tag. Data is stored in SQLite database.
 
-#### Filter Runs
+*#### Filter Runs
 Filter runs using tag. Results update dynamically.
 
-#### Compare Runs
+*#### Compare Runs
 Select two runs using IDs and compare them side-by-side.
 
-#### Export CSV
+*#### Export CSV
 Download all experiment data as a CSV file.
 
-#### Visualization
+*#### Visualization
 Parallel Coordinates Plot showing relationships between:
 * Learning Rate
 * Batch Size
