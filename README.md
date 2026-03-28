@@ -40,19 +40,19 @@ visdom-prototype/
 
 ## 🛠️ Tech Stack
 
-### Backend
+#### Backend
 - FastAPI
 - SQLAlchemy
 - SQLite
 
-### Frontend
+#### Frontend
 - React.js
 - Axios
 - Plotly.js
 ---
 
 ## ⚙️ Setup Instructions
-### Backend
+#### Backend
 
 ```bash
 cd backend
@@ -61,7 +61,7 @@ uvicorn main:app --reload
 ```
 Runs at: http://127.0.0.1:8000
 
-## frontend
+#### frontend
 
 ```bash
 cd frontend
@@ -71,21 +71,20 @@ npm start
 Runs at: http://localhost:3000
 
 ---
-### 📊 Key Functionalities
-## Add Experiment Runs
+## 📊 Key Functionalities
+#### Add Experiment Runs
 Input learning rate, batch size, accuracy, and tag. Data is stored in SQLite database.
 
-## Filter Runs
+#### Filter Runs
 Filter runs using tag. Results update dynamically.
 
-## Compare Runs
+#### Compare Runs
 Select two runs using IDs and compare them side-by-side.
 
-## Export CSV
+#### Export CSV
 Download all experiment data as a CSV file.
 
----
-## Visualization
+#### Visualization
 Parallel Coordinates Plot showing relationships between:
 * Learning Rate
 * Batch Size
@@ -117,8 +116,8 @@ Parallel Coordinates Plot showing relationships between:
 Prototype completed with core experiment tracking, filtering, comparison, and visualization features.
 
 ---
-### 👩‍💻 Author
-## Keerthana S
+## 👩‍💻 Author
+### Keerthana S
 
 Developed as part of GSoC preparation for Smart Experiment Management.
 
