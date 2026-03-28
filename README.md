@@ -35,9 +35,9 @@ visdom-prototype/
 │ └── node_modules/
 │
 └── README.md
+```
 ---
 
----
 ## 🛠️ Tech Stack
 
 ### Backend
@@ -51,7 +51,6 @@ visdom-prototype/
 - Plotly.js
 ---
 
----
 ## ⚙️ Setup Instructions
 ### Backend
 
