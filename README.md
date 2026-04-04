@@ -1,11 +1,9 @@
 ## VISDOM-PROTOTYPE
-
 Smart Experiment Management & Meta-Analysis System for tracking, filtering, comparing, and visualizing machine learning experiment runs.
 
 ---
 
-### 🚀 Features
-
+### Features
 - Add experiment runs (learning rate, batch size, accuracy, tag)
 - Filter runs using tags
 - Compare multiple runs side-by-side
@@ -15,7 +13,7 @@ Smart Experiment Management & Meta-Analysis System for tracking, filtering, comp
 
 ---
 
-### 🧱 Project Structure
+### Project Structure
 ```bash
 visdom-prototype/
 │
@@ -38,22 +36,20 @@ visdom-prototype/
 ```
 ---
 
-### 🛠️ Tech Stack
-
+### Tech Stack
 #### Backend
 - FastAPI
 - SQLAlchemy
 - SQLite
-
+- 
 #### Frontend
 - React.js
 - Axios
 - Plotly.js
 ---
 
-### ⚙️ Setup Instructions
+### Setup Instructions
 #### Backend
-
 ```bash
 cd backend
 pip install fastapi uvicorn sqlalchemy
@@ -62,17 +58,15 @@ uvicorn main:app --reload
 Runs at: http://127.0.0.1:8000
 
 #### frontend
-
 ```bash
 cd frontend
 npm install
 npm start
 ```
 Runs at: http://localhost:3000
-
 ---
-### 📊 Key Functionalities
 
+### Key Functionalities
 * #### Add Experiment Runs
 Input learning rate, batch size, accuracy, and tag. Data is stored in SQLite database.
 
@@ -92,33 +86,37 @@ Parallel Coordinates Plot showing relationships between:
 * Accuracy
 
 ---
-### 📌 Example Use Cases
+
+### Example Use Cases
 * Identify best-performing hyperparameters
 * Compare different training configurations
 * Analyze trends across experiments
 * Manage multiple ML runs efficiently
 
 ---
-### ⚠️ Notes
+
+### Notes
 * Parallel Coordinates Plot requires WebGL support in browser
 * If not supported, visualization may not render
 
 ---
-### 🚀 Future Improvements
+
+### Future Improvements
 * Hyperparameter optimization (Optuna integration)
 * Advanced query system
 * Authentication & multi-user support
 * Docker deployment
 * Improved UI/UX design
+  
 ---
 
-### 📎 Project Status
-
+#### Project Status
 Prototype completed with core experiment tracking, filtering, comparison, and visualization features.
 
 ---
-### 👩‍💻 Author
-#### Keerthana S
 
+### 👩‍💻 Author
+
+#### Keerthana S
 Developed as part of GSoC preparation for Smart Experiment Management.
 
