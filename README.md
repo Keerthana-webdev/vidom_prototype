@@ -41,7 +41,7 @@ visdom-prototype/
 - FastAPI
 - SQLAlchemy
 - SQLite
-- 
+
 #### Frontend
 - React.js
 - Axios
