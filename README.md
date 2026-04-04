@@ -108,7 +108,7 @@ Parallel Coordinates Plot showing relationships between:
   
 ---
 
-#### Project Status
+### Project Status
 Prototype completed with core experiment tracking, filtering, comparison, and visualization features.
 
 ---
