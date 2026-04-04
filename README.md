@@ -113,7 +113,7 @@ Prototype completed with core experiment tracking, filtering, comparison, and vi
 
 ---
 
-### 👩‍💻 Author
+### Author
 
 #### Keerthana S
 Developed as part of GSoC preparation for Smart Experiment Management.
